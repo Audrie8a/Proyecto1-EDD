@@ -1,0 +1,27 @@
+digraph G{
+Audrie_del_Cid[label="Audrie_del_Cid"];
+Audrie_del_Cid->Ochoa
+Ochoa->Audrie_del_Cid
+Ochoa[label="Ochoa"];
+Ochoa->Guatemala
+Guatemala->Ochoa
+Guatemala[label="Guatemala"];
+Guatemala->jutiapa
+jutiapa->Guatemala
+jutiapa[label="jutiapa"];
+jutiapa->jalapa
+jalapa->jutiapa
+Audrie_del_Cid[label="Audrie_del_Cid"];
+Audrie_del_Cid->Cid
+Cid->Audrie_del_Cid
+Cid[label="Cid"];
+Cid->max
+max->Cid
+max[label="max"];
+max->hp
+hp->max
+hp[label="hp"];
+hp->walmart
+walmart->hp
+Annelisse[label="Annelisse"];
+}
